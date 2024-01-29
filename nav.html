@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="series.html" style="display: block; margin-bottom: 20px;">
+            По сериям
+        </a>
+        <a href="series-item.html" style="display: block; margin-bottom: 20px;">
+            Страница серии
+        </a>
+        <a href="category.html" style="display: block; margin-bottom: 20px;">
+            Родительская категория
+        </a>
+        <a href="subcategory.html" style="display: block; margin-bottom: 20px;">
+            Подкатегория
+        </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Страница товара
+        </a>
+        <a href="catalog-item2.html" style="display: block; margin-bottom: 20px;">
+            Страница товара_НЕ авторизован
+        </a>
+        <a href="blog.html" style="display: block; margin-bottom: 20px;">
+            Статьи (блог)
+        </a>
+        <a href="blog-item.html" style="display: block; margin-bottom: 20px;">
+            Статья, история, лаборатория
+        </a>
+        <a href="blog-item2.html" style="display: block; margin-bottom: 20px;">
+            Контрактное производство
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О бренде
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="profile.html" style="display: block; margin-bottom: 20px;">
+            Личный кабинет
+        </a>
+
+
+
+
+        <button data-modal="loginModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Войти
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="loginModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="h2 medium-text">
+                    Войти
+                </div>
+                <button class="close-btn _close-modal">
+                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.75 9.25L21.25 21.75M8.75 21.75L21.25 9.25" stroke="#02153E" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__bottom">
+                <form action="" class="modal-form">
+                    <div class="fg">
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                    <div class="fg">
+                        <input type="password" placeholder="Пароль">
+                    </div>
+                    <div class="m-check m-check--small">
+                        <input type="checkbox">
+                        <label>
+                            <span class="m-check__title">
+                        Запомнить меня
+                    </span>
+                        </label>
+                    </div>
+                    <button class="modal-form__btn m-btn m-btn-dark">
+                        <span>Войти</span>
+                    </button>
+                    <button class="modal-form__btn2 m-btn m-btn-transparent">
+                        <span>Зарегистрироваться</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
